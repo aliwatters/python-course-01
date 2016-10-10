@@ -1,0 +1,13 @@
+; EditorConfig http://EditorConfig.org
+; see http://editorconfig.org/#download for plugins for your editor
+
+; Note: make sure these match with any installed beautifiers (jscs etc)
+; Unix-style newlines with a newline ending every file
+
+; Ignore everything except python.
+[*.py]
+end_of_line = lf
+insert_final_newline = false
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = true
